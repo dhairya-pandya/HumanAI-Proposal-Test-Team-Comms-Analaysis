@@ -2,7 +2,9 @@
 ## Team Communication Processing and Analysis in Human-Factors Simulated Environment
 
 **Organization:** HumanAI Foundation / ISSR, University of Alabama (TRIP Laboratory)
+
 **Project:** Team Communication Analysis
+
 **Dataset:** [AMI Meeting Corpus on HuggingFace](https://huggingface.co/datasets/edinburghcstr/ami)
 
 ---
