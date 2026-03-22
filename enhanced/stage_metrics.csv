@@ -1,0 +1,19 @@
+Sample,Stage,SNR (dB),Speech-band SNR,PESQ,STOI
+Sample A,Raw (SDM input),-0.06,18.43,1.05,0.188
+Sample A,Stage 1: Pre-process,-5.75,18.43,1.05,0.188
+Sample A,Stage 2: Noise Gate,-2.32,16.44,1.043,0.167
+Sample A,Stage 3: Wiener Filter,-3.64,16.44,1.052,0.165
+Sample A,Stage 4: Presence Boost,-3.67,16.25,1.055,0.165
+Sample A,Stage 5: Final Output,-3.55,16.24,1.052,0.165
+Sample B,Raw (SDM input),-0.23,15.82,1.044,0.24
+Sample B,Stage 1: Pre-process,-0.27,15.82,1.043,0.201
+Sample B,Stage 2: Noise Gate,-0.14,14.75,1.047,0.177
+Sample B,Stage 3: Wiener Filter,-0.13,14.75,1.049,0.176
+Sample B,Stage 4: Presence Boost,-0.1,14.56,1.052,0.175
+Sample B,Stage 5: Final Output,-0.1,14.56,1.071,0.176
+Sample C,Raw (SDM input),-0.12,18.0,1.051,0.218
+Sample C,Stage 1: Pre-process,-6.68,18.0,1.051,0.218
+Sample C,Stage 2: Noise Gate,-2.75,15.46,1.058,0.202
+Sample C,Stage 3: Wiener Filter,-3.79,15.46,1.055,0.201
+Sample C,Stage 4: Presence Boost,-3.56,15.27,1.055,0.201
+Sample C,Stage 5: Final Output,-3.44,15.27,1.058,0.201

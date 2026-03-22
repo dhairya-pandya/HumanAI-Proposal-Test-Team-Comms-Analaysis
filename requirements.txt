@@ -1,0 +1,32 @@
+# ============================================================
+# GSoC 2026 Test - Team Communication Audio Processing
+# ISSR / HumanAI Foundation · University of Alabama (TRIP Lab)
+#
+# Covers both notebooks:
+#   Notebook 1 : Database Identification and Evaluation
+#   Notebook 2 : Audio Enhancement Algorithm and Evaluation
+#
+# Install:  pip install -r requirements.txt
+# Python:   3.9+  (3.10 recommended; tested on Colab Python 3.12)
+# ============================================================
+
+librosa==0.11.0
+soundfile==0.13.1
+scipy==1.17.0
+numpy==2.4.2
+noisereduce==3.0.3
+pesq==0.0.4          # ITU-T P.862 wideband PESQ
+pystoi==0.4.1        # Short-Time Objective Intelligibility
+pyloudnorm>=0.1.1
+datasets==4.8.3
+huggingface-hub==1.7.1
+pandas==3.0.1
+matplotlib==3.10.8
+seaborn==0.13.2
+tqdm==4.67.3
+ipywidgets>=8.0.0    # Progress bars and Audio widget in Jupyter/Colab
+ipython>=8.0.0
+# Uncomment for DeepFilterNet2 neural enhancement.
+# Requires ~500 MB download on first run.
+# Not available on all platforms (check deepfilternet PyPI for supported OS/arch).
+# deepfilternet>=0.5.6
